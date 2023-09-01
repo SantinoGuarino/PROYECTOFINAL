@@ -1,0 +1,36 @@
+.NavBar{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(241,163,52,1) 83%); 
+    .title{
+        font-family: 'Orbitron', sans-serif;
+        font-size: xx-large;
+    }    
+    
+    .title-responsive{
+        font-family: 'Orbitron', sans-serif;
+        letter-spacing: 2px;
+    }
+}
+
+.ResponsiveMenu {
+
+    
+
+    button{
+        color: black;
+    }
+    a{
+        color: black;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.navbar-buttom-list{
+    button{
+        color: white;
+    }
+}

@@ -1,0 +1,95 @@
+.cart-container-icon{
+    display: flex;
+    align-items: center;
+    p{
+        margin: 0px 1px 0px 5px;
+        text-align: center;
+        font-size: small;
+        background-color: grey;
+        border-radius: 150px 150px;
+        height: 20px;
+        width: 20px;
+    }
+}
+.container-item-list-cart{
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    
+    .item-cart-prod{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        @media only screen and (min-width: 600px) {
+            width: 400px;
+            margin: 8px;
+        }
+        .cart-prod__image{
+            width: 100%;
+            img{
+                width: 80px;
+            }
+        }
+        .cart-prod__delet{
+            button{
+                transition: 400ms;
+                background: none;
+                border-width: 1px;
+                border-radius: 4px;
+            }
+            button:hover{
+                transition: 400ms;
+                color: red;
+            }
+        }
+    }
+    .conteiner-noproducts{
+        margin-bottom: 20px;
+        .button-start-buying-widget{
+            text-transform: uppercase;
+            transition: 600ms;
+            background: none;
+            font-weight:700;
+            width: 70%;
+            height: 40px;
+            border-width: 1px;
+            border-radius: 2px;
+            a{
+                color: black;
+            }
+        }
+        .button-start-buying-widget:hover{
+            background-color: black;
+            transition: 600ms;
+            a{
+                color: white;
+            }
+        }
+    }
+}
+
+.cart-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    button{
+        transition: 600ms;
+        background: none;
+        border-width: 1px;
+        border-radius: 2px;
+        a{
+            color: black;
+        } 
+    }
+    button:hover{
+        background-color: black;
+        transition: 600ms;
+        color: white;
+        a{
+            color: white;
+        }
+    }
+    
+}
+
+

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACG,UADO,CACP,mBAAmB,AAAA,CACd,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,cAAc,CAAE,SAAS,CAO5B,AAXL,AAKO,UALG,CACP,mBAAmB,CAIf,eAAe,AAAC,CACZ,KAAK,CAAE,IAAI,CACd,AAPR,AAQO,UARG,CACP,mBAAmB,CAOf,WAAW,AAAA,CACR,UAAU,CAAE,IAAI,CAClB",
+    "sources": [
+        "../src/components/MainSection/Card.scss"
+    ],
+    "names": [],
+    "file": "Card.min.css"
+}

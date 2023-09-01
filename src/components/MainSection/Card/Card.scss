@@ -1,0 +1,36 @@
+.card_item{
+  text-transform: capitalize;
+  .surfboards_galerry{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    .button-detail{
+      border-color: rgba(34,193,195,1);
+      height: 20px;
+      a{
+        color: rgb(219, 145, 42);
+        font-size: x-small;
+        font-weight: bold;
+      }
+    }
+
+    button{
+      margin-top: 5px;
+    }
+    p{
+      height: 40px;
+      margin-top: 10px;
+    }
+    .sufrboards_img {
+      width: 100%;
+    } 
+
+    .buy_buttom{
+      margin-top: 5px;
+      width: 100%;
+    }
+  }
+} 
+
+

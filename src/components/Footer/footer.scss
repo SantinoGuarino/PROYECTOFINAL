@@ -1,0 +1,87 @@
+.footer-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3b3939;
+    .logo-footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: black;
+        a{
+            font-family: 'Orbitron', sans-serif;
+        }
+    }
+
+    .social-media{
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+        a{
+            margin: 8px 15px;
+        }
+    }
+    .page-map{
+        width: 75%;
+        margin: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: x-large;
+        border-top: 1px rgba(255, 255, 255, 0.373) solid;
+        border-bottom: 1px rgba(255, 255, 255, 0.373) solid;
+        h3{
+            font-family: 'Amatic SC', cursive;
+            font-size: 45px;
+            color: orange;
+            margin-top: 10px;
+            @media only screen and (min-width: 900px) {
+                font-size: 60px;
+            }
+            @media only screen and (min-width: 1200px) {
+                font-size: 70px;
+            }
+        }
+        
+        .map-links{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            margin-bottom: 10px;
+            div{
+                display: flex;
+                flex-direction: column;
+                h4{
+                    font-family: 'Amatic SC', cursive;
+                    color: orange;
+                    margin: 3px;
+                    margin-top: 10px;
+                    font-size: 30px;
+                    @media only screen and (min-width: 900px) {
+                        font-size: 30px;
+                    }
+                    @media only screen and (min-width: 1200px) {
+                        font-size: 45px;
+                    }
+                }
+                a{
+                    font-size: large;
+                    margin: 4px 0px;
+                }
+            }
+            
+
+
+        }
+        
+    }
+    .rights{
+        p{
+            margin: 0px;
+            padding: 10px 0px;
+        }
+        color: white;
+        text-align: center;
+    }
+}

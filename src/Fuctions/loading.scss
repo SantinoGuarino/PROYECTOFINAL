@@ -1,0 +1,12 @@
+.loading-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+    .loading{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

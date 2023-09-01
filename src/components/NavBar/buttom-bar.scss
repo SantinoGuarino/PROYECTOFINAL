@@ -1,0 +1,17 @@
+.buttom_bar {
+    font-size: medium;
+    text-align: start;
+    text-transform: uppercase;
+    color: black;
+    margin: 1px;
+    @media only screen and (min-width: 900px) {
+        color: white;
+        margin-top: 5px;
+    }
+    
+}
+.buttombar-list{
+    a{
+        color: black;
+    }
+}

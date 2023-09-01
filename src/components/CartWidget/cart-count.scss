@@ -1,0 +1,20 @@
+.conteiner-cart-count{
+    display: flex;
+    justify-content: center;
+    width: 98%;
+    p{
+        margin: 0px 10px;
+    }
+    button{
+        transition: 600ms;
+        background: none;
+        border-width: 1px;
+        border-radius: 6px;
+        width: 25px;
+    }
+    button:hover{
+        background-color: black;
+        transition: 600ms;
+        color: orange;
+    }
+}
